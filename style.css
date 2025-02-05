@@ -1,5 +1,6 @@
 html{
     justify-items: center;
+    background-color: black;
 }
 body{
     display: flex;
