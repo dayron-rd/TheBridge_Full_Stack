@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>SUMATORIO INPUT</title>
+        <style>
+            #inputNumber {
+                margin-bottom: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <section>
+            <h3>
+                Introduce un número para sumar o presione 0 para mostar el
+                resultado:
+            </h3>
+            <form>
+                <input type="number" id="inputNumber" />
+            </form>
+            <div id="botones">
+                <div id="controles">
+                    <button class="botonstyle1" id="superButton">
+                        Agregar
+                    </button>
+                    <button class="botonstyle" id="sumatoria">Sumatoria</button>
+                </div>
+                <button class="botonstyle2" id="resetButton">Reiniciar</button>
+            </div>
+            <ol id="lista"></ol>
+            <h4 class="texto"></h4>
+            <script src="./main.js"></script>
+        </section>
+    </body>
+</html>
