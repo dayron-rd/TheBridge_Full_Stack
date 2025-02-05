@@ -48,3 +48,6 @@ function Sumar(){
 botonAgrega.addEventListener('click', menu);
 botonReset.addEventListener('click', reiniciar);
 botonsuma.addEventListener('click', Sumar);
+
+
+// Prueba
