@@ -1,4 +1,4 @@
-// Declaración de variables de los botonoes
+// Declaración de variables de los botones
 const botonAgrega = document.getElementById('superButton');
 const botonReset = document.getElementById('resetButton');
 const botonsuma = document.getElementById('sumatoria');
@@ -27,7 +27,7 @@ function menu() {
 }
 function reiniciar(evento){
     evento.preventDefault();
-        document.getElementById('lista').innerHTML = "";vbgg
+        document.getElementById('lista').innerHTML = "";
         document.getElementsByClassName('texto')[0].innerHTML = "";
         suma = 0;
         document.getElementById('superButton').style.display = "block";
